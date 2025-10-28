@@ -1,0 +1,7 @@
+[build]
+  functions = "functions"
+  command = "echo 'no build'"
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
